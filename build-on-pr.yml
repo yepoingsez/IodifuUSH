@@ -17,5 +17,3 @@ jobs:
     uses: BloopAI/reusable-workflows/.github/workflows/validate-helm-chart.yml@main
     with:
       path: helm/bloop
-    secrets:
-      slackBuildWebhook: ${{ secrets.SLACK_BUILD_WEBHOOK }}
